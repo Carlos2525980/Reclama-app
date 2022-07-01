@@ -1,0 +1,51 @@
+
+
+
+
+.rodape {
+
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: black;
+  width: 99%;
+  height: 250px;
+  bottom: 0;
+}
+
+
+h1 {
+
+
+
+  color: red;
+  margin-top: 90px;
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+  .rodape {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    bottom: 0;
+  }
+
+  h1 {
+
+
+
+    color: red;
+    margin-top: 90px;
+
+
+  }
+
+}
